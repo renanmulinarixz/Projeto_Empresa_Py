@@ -1,0 +1,1173 @@
+{
+  "pecas": [
+    {
+      "id": 1,
+      "peca": "Volante esportivo couro",
+      "tipo": "interior",
+      "parte": "direcao",
+      "veiculos": [
+        "Porsche",
+        "Mustang"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-01-10"
+    },
+    {
+      "id": 2,
+      "peca": "Banco premium couro",
+      "tipo": "interior",
+      "parte": "banco",
+      "veiculos": [
+        "Porsche",
+        "Mustang",
+        "Voyage"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-01-12"
+    },
+    {
+      "id": 3,
+      "peca": "Radio bluetooth touch",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Fusca",
+        "Kombi",
+        "Voyage"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-01-15"
+    },
+    {
+      "id": 4,
+      "peca": "Painel digital esportivo",
+      "tipo": "eletronica",
+      "parte": "painel",
+      "veiculos": [
+        "Porsche",
+        "Mustang"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-01-16"
+    },
+    {
+      "id": 5,
+      "peca": "Retrovisor cromado",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Fusca",
+        "Kombi"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-01-17"
+    },
+    {
+      "id": 6,
+      "peca": "Kit suspensão esportiva",
+      "tipo": "mecanica",
+      "parte": "suspensao",
+      "veiculos": [
+        "Mustang",
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-01-18"
+    },
+    {
+      "id": 7,
+      "peca": "Farol LED moderno",
+      "tipo": "iluminacao",
+      "parte": "frontal",
+      "veiculos": [
+        "Voyage",
+        "Fusca"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-01-19"
+    },
+    {
+      "id": 8,
+      "peca": "Rodas esportivas aro18",
+      "tipo": "externo",
+      "parte": "rodas",
+      "veiculos": [
+        "Mustang",
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-01-20"
+    },
+    {
+      "id": 9,
+      "peca": "Radio retro classico",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Fusca",
+        "Kombi"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-01-21"
+    },
+    {
+      "id": 10,
+      "peca": "Volante madeira classico",
+      "tipo": "interior",
+      "parte": "direcao",
+      "veiculos": [
+        "Fusca",
+        "Kombi"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-01-22"
+    },
+    {
+      "id": 11,
+      "peca": "Capo fibra carbono",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Mustang",
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-01-23"
+    },
+    {
+      "id": 12,
+      "peca": "Bancos traseiros reforcados",
+      "tipo": "interior",
+      "parte": "banco",
+      "veiculos": [
+        "Kombi",
+        "Voyage"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-01-24"
+    },
+    {
+      "id": 13,
+      "peca": "Escapamento esportivo inox",
+      "tipo": "mecanica",
+      "parte": "escape",
+      "veiculos": [
+        "Mustang",
+        "Voyage"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-01-25"
+    },
+    {
+      "id": 14,
+      "peca": "Painel analogico vintage",
+      "tipo": "eletronica",
+      "parte": "painel",
+      "veiculos": [
+        "Fusca",
+        "Kombi"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-01-26"
+    },
+    {
+      "id": 15,
+      "peca": "Kit iluminacao interna LED",
+      "tipo": "iluminacao",
+      "parte": "interior",
+      "veiculos": [
+        "Porsche",
+        "Mustang",
+        "Voyage"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-01-27"
+    },
+    {
+      "id": 16,
+      "peca": "Parachoque reforcado",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Kombi",
+        "Voyage"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-01-28"
+    },
+    {
+      "id": 17,
+      "peca": "Sensor estacionamento",
+      "tipo": "eletronica",
+      "parte": "carroceria",
+      "veiculos": [
+        "Porsche",
+        "Mustang"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-01-29"
+    },
+    {
+      "id": 18,
+      "peca": "Central multimidia",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Voyage",
+        "Mustang"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-01-30"
+    },
+    {
+      "id": 19,
+      "peca": "Kit freio esportivo",
+      "tipo": "mecanica",
+      "parte": "freio",
+      "veiculos": [
+        "Porsche",
+        "Mustang"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-02-01"
+    },
+    {
+      "id": 20,
+      "peca": "Lanterna traseira LED",
+      "tipo": "iluminacao",
+      "parte": "traseira",
+      "veiculos": [
+        "Voyage",
+        "Fusca"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-02-02"
+    },
+    {
+      "id": 21,
+      "peca": "Volante esportivo carbono",
+      "tipo": "interior",
+      "parte": "direcao",
+      "veiculos": [
+        "Porsche",
+        "Mustang"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-02-03"
+    },
+    {
+      "id": 22,
+      "peca": "Banco conforto premium",
+      "tipo": "interior",
+      "parte": "banco",
+      "veiculos": [
+        "Kombi",
+        "Voyage"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-02-04"
+    },
+    {
+      "id": 23,
+      "peca": "Radio touch android",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Voyage",
+        "Mustang"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-02-05"
+    },
+    {
+      "id": 24,
+      "peca": "Painel digital completo",
+      "tipo": "eletronica",
+      "parte": "painel",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-02-06"
+    },
+    {
+      "id": 25,
+      "peca": "Retrovisor esportivo preto",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Mustang",
+        "Voyage"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-02-07"
+    },
+    {
+      "id": 26,
+      "peca": "Kit amortecedor reforcado",
+      "tipo": "mecanica",
+      "parte": "suspensao",
+      "veiculos": [
+        "Kombi",
+        "Fusca"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-02-08"
+    },
+    {
+      "id": 27,
+      "peca": "Farol halogeno classico",
+      "tipo": "iluminacao",
+      "parte": "frontal",
+      "veiculos": [
+        "Fusca"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-02-09"
+    },
+    {
+      "id": 28,
+      "peca": "Rodas classicas aro15",
+      "tipo": "externo",
+      "parte": "rodas",
+      "veiculos": [
+        "Fusca",
+        "Kombi"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-02-10"
+    },
+    {
+      "id": 29,
+      "peca": "Radio retro cromado",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Fusca"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-02-11"
+    },
+    {
+      "id": 30,
+      "peca": "Volante couro vintage",
+      "tipo": "interior",
+      "parte": "direcao",
+      "veiculos": [
+        "Fusca",
+        "Kombi"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-02-12"
+    },
+    {
+      "id": 31,
+      "peca": "Capo aluminio leve",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-02-13"
+    },
+    {
+      "id": 32,
+      "peca": "Banco esportivo racing",
+      "tipo": "interior",
+      "parte": "banco",
+      "veiculos": [
+        "Mustang",
+        "Porsche"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-02-14"
+    },
+    {
+      "id": 33,
+      "peca": "Sistema som premium",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Porsche",
+        "Mustang"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-02-15"
+    },
+    {
+      "id": 34,
+      "peca": "Painel digital led",
+      "tipo": "eletronica",
+      "parte": "painel",
+      "veiculos": [
+        "Voyage"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-02-16"
+    },
+    {
+      "id": 35,
+      "peca": "Retrovisor cromado deluxe",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Kombi"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-02-17"
+    },
+    {
+      "id": 36,
+      "peca": "Kit suspensao heavy duty",
+      "tipo": "mecanica",
+      "parte": "suspensao",
+      "veiculos": [
+        "Kombi"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-02-18"
+    },
+    {
+      "id": 37,
+      "peca": "Farol LED matrix",
+      "tipo": "iluminacao",
+      "parte": "frontal",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-02-19"
+    },
+    {
+      "id": 38,
+      "peca": "Rodas esportivas aro20",
+      "tipo": "externo",
+      "parte": "rodas",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-02-20"
+    },
+    {
+      "id": 39,
+      "peca": "Radio bluetooth simples",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Voyage",
+        "Fusca"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-02-21"
+    },
+    {
+      "id": 40,
+      "peca": "Volante couro premium",
+      "tipo": "interior",
+      "parte": "direcao",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-02-22"
+    },
+    {
+      "id": 41,
+      "peca": "Capo esportivo ventilado",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-02-23"
+    },
+    {
+      "id": 42,
+      "peca": "Banco tecido reforcado",
+      "tipo": "interior",
+      "parte": "banco",
+      "veiculos": [
+        "Voyage"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-02-24"
+    },
+    {
+      "id": 43,
+      "peca": "Central multimidia premium",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Porsche",
+        "Mustang"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-02-25"
+    },
+    {
+      "id": 44,
+      "peca": "Painel retro iluminado",
+      "tipo": "eletronica",
+      "parte": "painel",
+      "veiculos": [
+        "Fusca"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-02-26"
+    },
+    {
+      "id": 45,
+      "peca": "Retrovisor esportivo fibra",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-02-27"
+    },
+    {
+      "id": 46,
+      "peca": "Kit freio reforcado",
+      "tipo": "mecanica",
+      "parte": "freio",
+      "veiculos": [
+        "Mustang",
+        "Voyage"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-02-28"
+    },
+    {
+      "id": 47,
+      "peca": "Farol LED classico",
+      "tipo": "iluminacao",
+      "parte": "frontal",
+      "veiculos": [
+        "Fusca",
+        "Kombi"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-03-01"
+    },
+    {
+      "id": 48,
+      "peca": "Rodas aro17 esportivas",
+      "tipo": "externo",
+      "parte": "rodas",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-03-02"
+    },
+    {
+      "id": 49,
+      "peca": "Radio vintage AMFM",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Fusca",
+        "Kombi"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-03-03"
+    },
+    {
+      "id": 50,
+      "peca": "Volante esportivo aluminio",
+      "tipo": "interior",
+      "parte": "direcao",
+      "veiculos": [
+        "Voyage"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-03-04"
+    },
+    {
+      "id": 51,
+      "peca": "Capo fibra leve",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-03-05"
+    },
+    {
+      "id": 52,
+      "peca": "Banco confort luxo",
+      "tipo": "interior",
+      "parte": "banco",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-03-06"
+    },
+    {
+      "id": 53,
+      "peca": "Radio android premium",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Mustang",
+        "Voyage"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-03-07"
+    },
+    {
+      "id": 54,
+      "peca": "Painel digital moderno",
+      "tipo": "eletronica",
+      "parte": "painel",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-03-08"
+    },
+    {
+      "id": 55,
+      "peca": "Retrovisor classico inox",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Fusca"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-03-09"
+    },
+    {
+      "id": 56,
+      "peca": "Kit suspensao esportiva",
+      "tipo": "mecanica",
+      "parte": "suspensao",
+      "veiculos": [
+        "Mustang",
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-03-10"
+    },
+    {
+      "id": 57,
+      "peca": "Farol LED adaptativo",
+      "tipo": "iluminacao",
+      "parte": "frontal",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-03-11"
+    },
+    {
+      "id": 58,
+      "peca": "Rodas aro19 premium",
+      "tipo": "externo",
+      "parte": "rodas",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-03-12"
+    },
+    {
+      "id": 59,
+      "peca": "Radio classico cromado",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Kombi"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-03-13"
+    },
+    {
+      "id": 60,
+      "peca": "Volante madeira premium",
+      "tipo": "interior",
+      "parte": "direcao",
+      "veiculos": [
+        "Fusca",
+        "Kombi"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-03-14"
+    },
+    {
+      "id": 61,
+      "peca": "Capo esportivo leve",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-03-15"
+    },
+    {
+      "id": 62,
+      "peca": "Banco racing carbono",
+      "tipo": "interior",
+      "parte": "banco",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-03-16"
+    },
+    {
+      "id": 63,
+      "peca": "Sistema som surround",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Mustang",
+        "Porsche"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-03-17"
+    },
+    {
+      "id": 64,
+      "peca": "Painel LED inteligente",
+      "tipo": "eletronica",
+      "parte": "painel",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-03-18"
+    },
+    {
+      "id": 65,
+      "peca": "Retrovisor fibra carbono",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-03-19"
+    },
+    {
+      "id": 66,
+      "peca": "Kit freio carbono",
+      "tipo": "mecanica",
+      "parte": "freio",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-03-20"
+    },
+    {
+      "id": 67,
+      "peca": "Farol LED premium",
+      "tipo": "iluminacao",
+      "parte": "frontal",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-03-21"
+    },
+    {
+      "id": 68,
+      "peca": "Rodas aro21 super",
+      "tipo": "externo",
+      "parte": "rodas",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-03-22"
+    },
+    {
+      "id": 69,
+      "peca": "Radio bluetooth compacto",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Voyage"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-03-23"
+    },
+    {
+      "id": 70,
+      "peca": "Volante esportivo slim",
+      "tipo": "interior",
+      "parte": "direcao",
+      "veiculos": [
+        "Voyage"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-03-24"
+    },
+    {
+      "id": 71,
+      "peca": "Capo ventilado carbono",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-03-25"
+    },
+    {
+      "id": 72,
+      "peca": "Banco luxo ajustavel",
+      "tipo": "interior",
+      "parte": "banco",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-03-26"
+    },
+    {
+      "id": 73,
+      "peca": "Radio android ultra",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Porsche",
+        "Mustang"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-03-27"
+    },
+    {
+      "id": 74,
+      "peca": "Painel digital futurista",
+      "tipo": "eletronica",
+      "parte": "painel",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-03-28"
+    },
+    {
+      "id": 75,
+      "peca": "Retrovisor aero",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-03-29"
+    },
+    {
+      "id": 76,
+      "peca": "Kit freio racing",
+      "tipo": "mecanica",
+      "parte": "freio",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-03-30"
+    },
+    {
+      "id": 77,
+      "peca": "Farol LED pro",
+      "tipo": "iluminacao",
+      "parte": "frontal",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-03-31"
+    },
+    {
+      "id": 78,
+      "peca": "Rodas aro22 luxo",
+      "tipo": "externo",
+      "parte": "rodas",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-04-01"
+    },
+    {
+      "id": 79,
+      "peca": "Radio compacto usb",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Voyage"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-04-02"
+    },
+    {
+      "id": 80,
+      "peca": "Volante couro premium plus",
+      "tipo": "interior",
+      "parte": "direcao",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-04-03"
+    },
+    {
+      "id": 81,
+      "peca": "Capo fibra premium",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-04-04"
+    },
+    {
+      "id": 82,
+      "peca": "Banco esportivo deluxe",
+      "tipo": "interior",
+      "parte": "banco",
+      "veiculos": [
+        "Mustang",
+        "Porsche"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-04-05"
+    },
+    {
+      "id": 83,
+      "peca": "Sistema audio digital",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Mustang",
+        "Voyage"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-04-06"
+    },
+    {
+      "id": 84,
+      "peca": "Painel digital luxo",
+      "tipo": "eletronica",
+      "parte": "painel",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-04-07"
+    },
+    {
+      "id": 85,
+      "peca": "Retrovisor carbono deluxe",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-04-08"
+    },
+    {
+      "id": 86,
+      "peca": "Kit freio super sport",
+      "tipo": "mecanica",
+      "parte": "freio",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-04-09"
+    },
+    {
+      "id": 87,
+      "peca": "Farol LED ultra",
+      "tipo": "iluminacao",
+      "parte": "frontal",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-04-10"
+    },
+    {
+      "id": 88,
+      "peca": "Rodas aro23 premium",
+      "tipo": "externo",
+      "parte": "rodas",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-04-11"
+    },
+    {
+      "id": 89,
+      "peca": "Radio bluetooth deluxe",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Voyage"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-04-12"
+    },
+    {
+      "id": 90,
+      "peca": "Volante carbono pro",
+      "tipo": "interior",
+      "parte": "direcao",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-04-13"
+    },
+    {
+      "id": 91,
+      "peca": "Capo carbono racing",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-04-14"
+    },
+    {
+      "id": 92,
+      "peca": "Banco luxo carbono",
+      "tipo": "interior",
+      "parte": "banco",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-04-15"
+    },
+    {
+      "id": 93,
+      "peca": "Radio smart connect",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Mustang",
+        "Porsche"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-04-16"
+    },
+    {
+      "id": 94,
+      "peca": "Painel digital racing",
+      "tipo": "eletronica",
+      "parte": "painel",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-04-17"
+    },
+    {
+      "id": 95,
+      "peca": "Retrovisor aero premium",
+      "tipo": "externo",
+      "parte": "carroceria",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-04-18"
+    },
+    {
+      "id": 96,
+      "peca": "Kit freio carbono elite",
+      "tipo": "mecanica",
+      "parte": "freio",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-04-19"
+    },
+    {
+      "id": 97,
+      "peca": "Farol matrix premium",
+      "tipo": "iluminacao",
+      "parte": "frontal",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "NovaMotion Parts",
+      "data_fabricacao": "2026-04-20"
+    },
+    {
+      "id": 98,
+      "peca": "Rodas aro24 ultra",
+      "tipo": "externo",
+      "parte": "rodas",
+      "veiculos": [
+        "Porsche"
+      ],
+      "fabricante": "TitanDrive Industries",
+      "data_fabricacao": "2026-04-21"
+    },
+    {
+      "id": 99,
+      "peca": "Radio bluetooth pro",
+      "tipo": "eletronica",
+      "parte": "radio",
+      "veiculos": [
+        "Voyage"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-04-22"
+    },
+    {
+      "id": 100,
+      "peca": "Volante couro elite",
+      "tipo": "interior",
+      "parte": "direcao",
+      "veiculos": [
+        "Mustang"
+      ],
+      "fabricante": "AutoLux Components",
+      "data_fabricacao": "2026-04-23"
+    },
+    {
+      "id": 101,
+      "peca": "l",
+      "tipo": "interior",
+      "parte": "motor",
+      "veiculos": [
+        "l"
+      ],
+      "fabricante": "auto japan",
+      "data_fabricacao": "2026-03-26"
+    },
+    {
+      "id": 102,
+      "peca": "l",
+      "tipo": "l",
+      "parte": "l",
+      "veiculos": [
+        "l",
+        "l",
+        "l"
+      ],
+      "fabricante": "l",
+      "data_fabricacao": "2026-03-27"
+    }
+  ]
+}
