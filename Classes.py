@@ -36,7 +36,12 @@ class Vendas:
     def getPreco(self):
         print(f"O preço da venda é {self.preco}")
 
-
+def InfoMenu():
+    print(" -- Siga as intrucoes --")
+    print("0 - para fechar o programa")
+    print("1 - Cadastrar Produto")
+    print("2 - Registrar Produção")
+    print("3 - Buscar produto")
 
 class SistemaPY:
     def __init__(self):
@@ -99,76 +104,71 @@ class SistemaPY:
             json.dump(dados, arquivo, indent=2, ensure_ascii=False) # torna um dicionario dentro do meu arquivo json
 
 
-sistema = SistemaPY() 
 
 
-def cadastrar_produto(): #cadastra produtos
-    veiculos = []
-    id_produto = sistema.geradorId(sistema.banco)
-    
-    quantidade = int(input("Quantidade inicial: "))
-    peca = input("Nome da peça: ")
-    veiculos.append(input("Veículos compatíveis: "))
 
-    sistema.VerificadorVeiculos(veiculos)
+    def cadastrar_produto(): #cadastra produtos
+        veiculos = []
+        id_produto = SistemaPY.geradorId(SistemaPY.banco)
+        
+        quantidade = int(input("Quantidade inicial: "))
+        peca = input("Nome da peça: ")
+        veiculos.append(input("Veículos compatíveis: "))
 
-    tipo = input("Tipo da peça: ")
-    parte = input("Parte do veículo: ")
-    fabricante = input("Fabricante: ")
-    data_producao = datetime.date.today()
+        SistemaPY.VerificadorVeiculos(veiculos)
 
-    novo_produto = Produtos(id_produto, quantidade, peca, veiculos, parte, tipo, fabricante, data_producao)
-    sistema.produtosCadastro.append(novo_produto) #cria novo objeto Produto
-    sistema.escreverBanco(novo_produto)# adiciona no arquivo json
-    sistema.banco = sistema.InitDB() # resalva o banco na variavel banco (garantir que estara sempre atualizado)
-    print("Produto cadastrado com sucesso!")
+        tipo = input("Tipo da peça: ")
+        parte = input("Parte do veículo: ")
+        fabricante = input("Fabricante: ")
+        data_producao = datetime.date.today()
 
-
-def buscar_produto(nome): # busca produtos (a ser alterado)
-    for produto in sistema.produtosCadastro:
-        if produto.peca.lower() == nome.lower():
-            return produto
-    return None
+        novo_produto = Produtos(id_produto, quantidade, peca, veiculos, parte, tipo, fabricante, data_producao)
+        SistemaPY.produtosCadastro.append(novo_produto) #cria novo objeto Produto
+        SistemaPY.escreverBanco(novo_produto)# adiciona no arquivo json
+        SistemaPY.banco = SistemaPY.InitDB() # resalva o banco na variavel banco (garantir que estara sempre atualizado)
+        print("Produto cadastrado com sucesso!")
 
 
-def registrar_producao(): # registra producao (a desenvolver)
-    nome = input("Nome do produto para produção: ")
-    produto = buscar_produto(nome)
-
-    if produto:
-        quantidade = int(input("Quantidade produzida: "))
-        produto.quantidade += quantidade
-        print(f"Produção registrada. Novo estoque: {produto.quantidade}")
-    else:
-        print("Produto não encontrado.")
+    def buscar_produto(nome): # busca produtos (a ser alterado)
+        for produto in SistemaPY.produtosCadastro:
+            if produto.peca.lower() == nome.lower():
+                return produto
+        return None
 
 
-def menuAbrir(): # menu
-    print(" -- Siga as intrucoes --")
-    print("0 - para fechar o programa")
-    print("1 - Cadastrar Produto")
-    print("2 - Registrar Produção")
+    def registrar_producao(): # registra producao (a desenvolver)
+        nome = input("Nome do produto para produção: ")
+        produto = SistemaPY.buscar_produto(nome)
 
-    opcao = None
-    while opcao != 0:
-        try:
-            opcao = int(input("\nDigite sua escolha: "))
-            if opcao not in [0, 1, 2]:
-                print("\n[!] Opção inválida! Escolha apenas entre 0, 1 ou 2.")
-                continue
-        except ValueError:
-            print("\n[!] Erro: Por favor, digite um número inteiro!")
+        if produto:
+            quantidade = int(input("Quantidade produzida: "))
+            produto.quantidade += quantidade
+            print(f"Produção registrada. Novo estoque: {produto.quantidade}")
         else:
-            if opcao == 1:
-                print("direcionando voce para cadastrar um produto")
-                cadastrar_produto()
-            elif opcao == 2:
-                print("direcionando voce para registrar na producao")
-                registrar_producao()
-            elif opcao == 0:
-                print("Sistema encerrado!")
-                break
-        print(" -- Siga as intrucoes --")
-        print("0 - para fechar o programa")
-        print("1 - Cadastrar Produto")
-        print("2 - Registrar Produção")
+            print("Produto não encontrado.")
+
+
+
+    def menuAbrir(): # menu
+        InfoMenu()
+        opcao = None
+        while opcao != 0:
+            try:
+                opcao = int(input("\nDigite sua escolha: "))
+                if opcao not in [0, 1, 2]:
+                    print("\n[!] Opção inválida! Escolha apenas entre 0, 1 ou 2.")
+                    continue
+            except ValueError:
+                print("\n[!] Erro: Por favor, digite um número inteiro!")
+            else:
+                if opcao == 1:
+                    print("direcionando voce para cadastrar um produto")
+                    SistemaPY.cadastrar_produto()
+                elif opcao == 2:
+                    print("direcionando voce para registrar na producao")
+                    SistemaPY.registrar_producao()
+                elif opcao == 0:
+                    print("Sistema encerrado!")
+                    break
+            InfoMenu()
+           
