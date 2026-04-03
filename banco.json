@@ -1206,11 +1206,18 @@
   "funcionarios": [
     {
       "matricula": "001",
-      "nome": "Matheus Martins"
+      "nome": "Matheus Martins",
+      "setor": "Montagem"
     },
     {
       "matricula": "002",
-      "nome": "Renan mullinari"
+      "nome": "Renan mullinari",
+      "setor": "Almoxarifado"
+    },
+    {
+      "matricula": "003",
+      "nome": "Jorge",
+      "setor": "Produção"
     }
   ],
   "retiradas": [

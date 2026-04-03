@@ -37,9 +37,10 @@ class Vendas:
         print(f"O preço da venda é {self.preco}")
 
 class Funcionario:
-    def __init__(self, matricula, nome):
+    def __init__(self, matricula, nome, setor):
         self.matricula = matricula
         self.nome = nome
+        self.setor = setor
 
 class Retirada:
     def __init__(self, funcionario, produto, quantidade, data_hora):
@@ -56,6 +57,7 @@ def InfoMenu():
     print("3 - Buscar produto")
     print("4 - Buscar por veículo")
     print("5 - Registrar retirada de peça por funcionário")
+    print("6 - Cadastrar novo funcionário")
 
 class SistemaPY:
     def __init__(self):
@@ -74,7 +76,8 @@ class SistemaPY:
         for item in self.banco["funcionarios"]:
             funcionario = Funcionario(
                 matricula=item["matricula"],
-                nome=item["nome"]
+                nome=item["nome"],
+                setor=item["setor"]
             )
             self.funcionariosCadastro.append(funcionario)
         print(f"{len(self.funcionariosCadastro)} funcionários carregados.")
@@ -84,6 +87,37 @@ class SistemaPY:
             if funcionario.matricula == matricula:
                 return funcionario
         return None
+    
+    def geradorMatriculaFuncionario(self):
+        dados = self.banco["funcionarios"]
+        if not dados:
+            return "001"
+        ultima = max([int(f["matricula"]) for f in dados])
+        return str(ultima + 1).zfill(3)
+    
+    def cadastrarFuncionario(self):
+        matricula = self.geradorMatriculaFuncionario()
+
+        nome = input("Nome do funcionário: ")
+        setor = input("Setor do funcionário: ")
+
+        novo_funcionario = Funcionario(matricula, nome, setor)
+        self.funcionariosCadastro.append(novo_funcionario)
+
+        with open("banco.json", "r", encoding="utf-8") as arquivo:
+            dados = json.load(arquivo)
+
+        dados["funcionarios"].append({
+            "matricula": matricula,
+            "nome": nome,
+            "setor": setor
+        })
+
+        with open("banco.json", "w", encoding="utf-8") as arquivo:
+            json.dump(dados, arquivo, indent=2, ensure_ascii=False)
+
+        self.banco = self.InitDB()
+        print(f"Funcionário '{nome}' cadastrado! Matrícula: {matricula}")
     
     def registrarRetirada(self): # registra retirada de peças por funcionarios
         matricula = input("Digite a matrícula do funcionário: ")
@@ -239,8 +273,8 @@ class SistemaPY:
         while opcao != 0:
             try:
                 opcao = int(input("\nDigite sua escolha: "))
-                if opcao not in [0, 1, 2, 3, 4, 5]:
-                    print("\n[!] Opção inválida! Escolha apenas entre 0, 1, 2, 3, 4, 5.")
+                if opcao not in [0, 1, 2, 3, 4, 5, 6]:
+                    print("\n[!] Opção inválida! Escolha apenas entre 0, 1, 2, 3, 4, 5, 6.")
                     continue
             except ValueError:
                 print("\n[!] Erro: Por favor, digite um número inteiro!")
@@ -271,6 +305,9 @@ class SistemaPY:
                 elif opcao == 5:
                     print("direcionando voce para registrar retirada de peça por funcionario")
                     self.registrarRetirada()
+                elif opcao == 6:
+                    print("Direcionando para cadastro de funcionário")
+                    self.cadastrarFuncionario()
                 elif opcao == 0:
                     print("Sistema encerrado!")
                     break
